@@ -8,5 +8,8 @@ public class Mamifero extends Animal{
 	private boolean pelaje;
 	private int patas;
 	
+	public Mamifero (int caballos, int leones) {
+		
+	}
 	
 }

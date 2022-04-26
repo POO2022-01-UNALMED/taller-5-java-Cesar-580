@@ -6,5 +6,7 @@ public class Zona {
 	private Array<Zona> zoo = new ArrayList<Zona>();
 	private ArrayList<Animal> animales = new ArrayList<Animal>();
 	
-	
+	public Zona (String nombre) {
+		this.nombre = nombre;
+	}
 }

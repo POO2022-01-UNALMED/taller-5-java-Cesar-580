@@ -11,5 +11,4 @@ public class Mamifero extends Animal{
 	public Mamifero (int caballos, int leones) {
 		
 	}
-	
 }

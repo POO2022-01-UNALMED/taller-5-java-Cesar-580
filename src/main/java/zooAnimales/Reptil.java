@@ -6,5 +6,5 @@ public class Reptil extends Animal {
 	public int iguanas;
 	public int serpientes;
 	private String colorEscamas;
-	private int largoCola;
+	private int largoCola;;
 }

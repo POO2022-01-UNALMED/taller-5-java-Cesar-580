@@ -49,10 +49,7 @@ public class Anfibio extends Animal {
 	
 	// M
 	
-	// Moverse
-	public String movimiento() {
-		return "saltar";
-	}
+
 	
 	public static Anfibio crearRana(String nombre, int edad, String genero) {
 		Anfibio nuevoRana = new Anfibio(nombre,edad,"selva",genero,"rojo",true);
@@ -71,6 +68,10 @@ public class Anfibio extends Animal {
 		return listado.size();
 	}
 	
+	// Moverse
+    public String movimiento() {
+        return "saltar";
+    }	
 	
 }
 

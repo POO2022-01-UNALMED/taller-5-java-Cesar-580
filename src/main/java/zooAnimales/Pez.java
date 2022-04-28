@@ -48,10 +48,7 @@ public class Pez extends Animal {
 	
 	// M
 	
-	// Moverse
-	public String movimiento() {
-		return "nadar";
-	}
+	
 	
 	public static Pez crearSalmon(String nombre, int edad, String genero) {
 		Pez nuevoSalmon = new Pez(nombre,edad,"oceano",genero,"rojo",6);
@@ -69,6 +66,9 @@ public class Pez extends Animal {
 	public static int cantidadPeces(){
 		return listado.size();
 	}
-	
+	// Moverse
+	public String movimiento() {
+		return "nadar";
+	}
 	
 }

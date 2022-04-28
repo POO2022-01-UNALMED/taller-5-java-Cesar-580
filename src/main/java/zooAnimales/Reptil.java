@@ -46,10 +46,7 @@ public class Reptil extends Animal {
 	
 	// M
 	
-	// Moverse
-	public String movimiento() {
-		return "reptar";
-	}
+	
 
 	
 	public static Reptil crearIguana(String nombre, int edad, String genero) {
@@ -67,6 +64,11 @@ public class Reptil extends Animal {
 	// Metodos get para la lista de Reptiles
 	public static int cantidadReptiles(){
 		return listado.size();
+	}
+	
+	// Moverse
+	public String movimiento() {
+		return "reptar";
 	}
 	
 }

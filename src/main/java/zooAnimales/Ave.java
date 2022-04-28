@@ -38,9 +38,7 @@ public class Ave extends Animal {
 	// Metodos
 	
 	// Moverse
-	public String movimiento() {
-		return "volar";
-	}
+	
 	
 	// 
 	public static Ave crearHalcon(String nombre, int edad, String genero) {
@@ -60,5 +58,8 @@ public class Ave extends Animal {
 		return listado.size();
 	}
 	
+	public String movimiento() {
+        return "volar";
+    }
 	
 }

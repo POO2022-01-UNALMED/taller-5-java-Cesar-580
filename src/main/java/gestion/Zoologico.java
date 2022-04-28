@@ -35,8 +35,8 @@ public class Zoologico {
 	}
 	
 	// Metodos get y set para zonas
-	public ArrayList<Zona> getZonas() {
-		return this.zonas;
+	public ArrayList<Zona> getZona() {
+		return zonas;
 	}
 	
 	public void agregarZonas(Zona newZona) {

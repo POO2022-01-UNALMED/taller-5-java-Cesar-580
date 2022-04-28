@@ -9,9 +9,9 @@ public class Anfibio extends Animal {
 	private boolean venenoso;
 	
 	public Anfibio() {
-		super();
-		Anfibio.listado.add(this);
+		this("", 0, "", "", "", false);
 	}
+	
 	public Anfibio(String nombre, int edad, String habitat, String genero, String colorPiel, boolean venenoso) {
 		// Para los atributos heredados de Animal
 		super(nombre,edad,habitat,genero);
@@ -21,6 +21,7 @@ public class Anfibio extends Animal {
 		// Para anadirlo al listado general
 		Anfibio.listado.add(this);
 	}
+	
 	//Metodo get y set
 	public String getColorPiel() {
 		return this.colorPiel;

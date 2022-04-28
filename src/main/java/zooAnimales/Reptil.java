@@ -44,7 +44,7 @@ public class Reptil extends Animal {
 	
 	// Metodos get para la lista de Reptiles
 	public static int cantidadReptiles(){
-		return this.listado.size();
+		return listado.size();
 	}
 	
 }

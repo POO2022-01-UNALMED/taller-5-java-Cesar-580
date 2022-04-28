@@ -16,7 +16,7 @@ public class Pez extends Animal {
 	public Pez(String nombre, int edad, String habitat, String genero,String colorEscamas, int cantidadAletas) {
 		
 		// Para los atributos heredados desde Animal
-		super(nombre,edad,habitad,genero);
+		super(nombre,edad,habitat,genero);
 		
 		// Para los atributos de la clase Pez
 		this.colorEscamas = colorEscamas;
@@ -45,6 +45,6 @@ public class Pez extends Animal {
 	
 	// Metodos get para la lista de Pez
 	public static int cantidadPeces(){
-		return this.listado.size();
+		return listado.size();
 	}
 }

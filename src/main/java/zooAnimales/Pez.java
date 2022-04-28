@@ -7,10 +7,12 @@ public class Pez extends Animal {
 	public static int bacalaos;
 	private String colorEscamas;
 	private int cantidadAletas;
+	
 	public Pez () {
 		super();
-		Pez.listado.add(this);
+		listado.add(this);
 	}
+	
 	public Pez(String nombre, int edad, String habitat, String genero,String colorEscamas, int cantidadAletas) {
 		// Para los atributos heredados desde Animal
 		super(nombre,edad,habitat,genero);
@@ -20,6 +22,7 @@ public class Pez extends Animal {
 		// Para anadir el Pez a la coleccion
 		Pez.listado.add(this);
 	}
+	
 	//Metodos get y set
 	public String getColorEscamas() {
 		return this.colorEscamas;

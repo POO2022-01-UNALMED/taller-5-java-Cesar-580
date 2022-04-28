@@ -7,6 +7,7 @@ public class Reptil extends Animal {
 	public static int serpientes;
 	private String colorEscamas;
 	private int largoCola;
+	
 	public Reptil() {
 		super();
 		Reptil.listado.add(this);

@@ -7,10 +7,13 @@ public class Zona {
 	private Zoologico zoo;
 	private ArrayList<Animal> animales = new ArrayList<Animal>();
 	
+	public Zona() {}
+	
 	public Zona (String nombre, Zoologico zoo) {
 		this.nombre = nombre;
 		this.zoo = zoo;
 	}
+	
 	
 	// Metodos get y set para nombre
 	public String getNombre() {

@@ -25,7 +25,7 @@ public class Ave extends Animal {
 		Ave.listado.add(this);
 	}
 
-	// Métodos get y set para los atributos normales de Ave
+	// Metodos get y set para los atributos normales de Ave
 	public String getColorPlumas() {
 		return this.pelaje;
 	}
@@ -34,7 +34,7 @@ public class Ave extends Animal {
 	}
 
 	
-	// Método get para la lista de Aves
+	// Metodos get para la lista de Aves
 	public static int cantidadAves(){
 		return this.listado.size();
 	}

@@ -26,7 +26,7 @@ public class Reptil extends Animal {
 		Reptil.listado.add(this);
 	}
 	
-	//Métodos get y set
+	//Metodos get y set
 	public String getColorEscamas() {
 		return this.colorEscamas;
 	}
@@ -42,7 +42,7 @@ public class Reptil extends Animal {
 	}
 	
 	
-	// Método get para la lista de Reptiles
+	// Metodos get para la lista de Reptiles
 	public static int cantidadReptiles(){
 		return this.listado.size();
 	}

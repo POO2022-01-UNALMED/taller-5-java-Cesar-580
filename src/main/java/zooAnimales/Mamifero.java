@@ -28,7 +28,7 @@ public class Mamifero extends Animal{
 		Mamifero.listado.add(this);
 	}
 	
-	// Métodos get y set para los atributos normales de Mamifero
+	// Metodos get y set para los atributos normales de Mamifero
 	public boolean getPelaje() {
 		return this.pelaje;
 	}
@@ -43,7 +43,7 @@ public class Mamifero extends Animal{
 		this.patas = patas;
 	}
 	
-	// Método get para la lista de Mamiferos
+	// Metodos get para la lista de Mamiferos
 	public static int cantidadMamiferos(){
 		return this.listado.size();
 	}

@@ -16,7 +16,7 @@ public class Zoologico {
 		this.ubicacion = ubicacion;
 	}
 	
-	// Métodos get y set para nombre
+	// Metodos get y set para nombre
 	public String getNombre() {
 		return this.nombre;
 	}
@@ -25,7 +25,7 @@ public class Zoologico {
 		this.nombre = nombre;
 	}
 	
-	// Métodos get y set para ubicación
+	// Metodos get y set para ubicacion
 	public String getUbicacion() {
 		return this.ubicacion;
 	}
@@ -34,7 +34,7 @@ public class Zoologico {
 		this.ubicacion = ubicacion;
 	}
 	
-	// Métodos get y set para zonas
+	// Metodos get y set para zonas
 	public ArrayList<Zona> getZonas() {
 		return this.zonas;
 	}

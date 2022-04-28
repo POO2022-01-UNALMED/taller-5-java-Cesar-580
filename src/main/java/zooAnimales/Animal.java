@@ -12,7 +12,7 @@ public class Animal {
 	private ArrayList<Zona> zona = new ArrayList<Zona>();
 	
 	
-	//Construnctor vacio para que las herencias puedan trabajar sobre él
+	//Construnctor vacio para que las herencias puedan trabajar sobre el
 	public Animal() {
 		
 	}
@@ -52,7 +52,16 @@ public class Animal {
 				"\nAves: " + Ave.cantidadAves() + 
 				"\nReptiles: " + Reptil.cantidadReptiles() +
 				"\nPeces: " + Pez.cantidadPeces() +
-				"\nAnfibios: " Anfibio.cantidadAnfibios();
+				"\nAnfibios: " + Anfibio.cantidadAnfibios();
 	}
+	
+	public String toString() {
+		if(this.zona == null) {
+			return "Mi nombre es " + this.getNombre() + ", tengo una edad de " + this.getEdad() + ", habito en " + this.getHabitat() + "y mi genero es" + this.getGenero() ;
+		}else {
+			return "Mi nombre es " + this.getNombre() + ", tengo una edad de " + this.getEdad() + ", habito en " + this.getHabitat() + "y mi genero es" + this.getGenero() + ", la zona en la que me ubico es " this.zona.getZoo();
+		}
+	}
+	
 	
 }

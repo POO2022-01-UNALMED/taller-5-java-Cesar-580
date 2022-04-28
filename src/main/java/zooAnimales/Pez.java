@@ -22,12 +22,12 @@ public class Pez extends Animal {
 		this.colorEscamas = colorEscamas;
 		this.cantidadAletas = cantidadAletas;
 		
-		// Para añadir el Pez a la colección
+		// Para anadir el Pez a la colección
 		Pez.listado.add(this);
 		
 	}
 	
-	//Métodos get y set
+	//Metodos get y set
 	public String getColorEscamas() {
 		return this.colorEscamas;
 	}
@@ -43,7 +43,7 @@ public class Pez extends Animal {
 	}
 	
 	
-	// Método get para la lista de Pez
+	// Metodos get para la lista de Pez
 	public static int cantidadPeces(){
 		return this.listado.size();
 	}

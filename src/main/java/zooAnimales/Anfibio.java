@@ -26,7 +26,7 @@ public class Anfibio extends Animal {
 		Anfibio.listado.add(this);
 	}
 	
-	//Métodos get y set
+	//Metodo get y set
 	public String getColorPiel() {
 		return this.colorPiel;
 	}
@@ -42,7 +42,7 @@ public class Anfibio extends Animal {
 	}
 	
 	
-	// Método get para la lista de Anfibio
+	// Metodo get para la lista de Anfibio
 	public static int cantidadAnfibios(){
 		return this.listado.size();
 	}

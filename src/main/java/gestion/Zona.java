@@ -12,7 +12,7 @@ public class Zona {
 		this.zoo = zoo;
 	}
 	
-	// Métodos get y set para nombre
+	// Metodos get y set para nombre
 	public String getNombre() {
 		return this.nombre;
 	}
@@ -21,7 +21,7 @@ public class Zona {
 		this.nombre = nombre;
 	}
 	
-	// Métodos get y set para ubicación
+	// Metodos get y set para ubicacion
 	public Zoologico getZoo() {
 		return this.zoo;
 	}
@@ -30,7 +30,7 @@ public class Zona {
 		this.zoo = zoo;
 	}
 	
-	//Método agregar animal
+	//Metodos agregar animal
 	public void agregarAnimales(Animal newAnimal){
 		this.animales.add(newAnimal);		
 	}

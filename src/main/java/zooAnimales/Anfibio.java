@@ -3,8 +3,8 @@ import java.util.ArrayList;
 
 public class Anfibio extends Animal {
 	private static ArrayList<Anfibio> listado;
-	public int ranas;
-	public int salamandras;
+	public static int ranas;
+	public static int salamandras;
 	private String colorPiel;
 	private boolean venenoso;
 	
@@ -42,9 +42,32 @@ public class Anfibio extends Animal {
 	}
 	
 	
+	
+	
+	
+	// M
+	
+	// Moverse
+	public String movimiento() {
+		return "saltar";
+	}
+	
+	public static Anfibio crearRana(String nombre, int edad, String genero) {
+		Anfibio nuevoRana = new Anfibio(nombre,edad,"selva",genero,"rojo",true);
+		ranas += 1;
+		return nuevoRana;
+	}
+	
+	public static Anfibio crearSalamandra(String nombre, int edad, String genero) {
+		Anfibio nuevoSalamandra = new Anfibio(nombre,edad,"oceano",genero,"negro",true);
+		salamandras += 1;
+		return nuevoSalamandra;
+	}
+	
 	// Metodo get para la lista de Anfibio
 	public static int cantidadAnfibios(){
 		return listado.size();
 	}
+	
 }
 

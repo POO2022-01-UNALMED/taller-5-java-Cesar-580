@@ -43,8 +43,32 @@ public class Pez extends Animal {
 	}
 	
 	
+	
+
+	
+	// M
+	
+	// Moverse
+	public String movimiento() {
+		return "nadar";
+	}
+	
+	public static Pez crearSalmon(String nombre, int edad, String genero) {
+		Pez nuevoSalmon = new Pez(nombre,edad,"oceano",genero,"rojo",6);
+		salmones += 1;
+		return nuevoSalmon;
+	}
+	
+	public static Pez crearBacalao(String nombre, int edad, String genero) {
+		Pez nuevoBacalao = new Pez(nombre,edad,"oceano",genero,"gris",6);
+		bacalaos += 1;
+		return nuevoBacalao;
+	}
+	
 	// Metodos get para la lista de Pez
 	public static int cantidadPeces(){
 		return listado.size();
 	}
+	
+	
 }

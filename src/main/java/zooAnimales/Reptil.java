@@ -42,6 +42,28 @@ public class Reptil extends Animal {
 	}
 	
 	
+	
+	
+	// M
+	
+	// Moverse
+	public String movimiento() {
+		return "reptar";
+	}
+
+	
+	public static Reptil crearIguana(String nombre, int edad, String genero) {
+		Reptil nuevoIguana = new Reptil(nombre,edad,"humedal",genero,"verde",3);
+		iguanas += 1;
+		return nuevoIguana;
+	}
+	
+	public static Reptil crearSerpiente(String nombre, int edad, String genero) {
+		Reptil nuevoSerpiente = new Reptil(nombre,edad,"jungla",genero,"blanco",1);
+		serpientes += 1;
+		return nuevoSerpiente;
+	}
+	
 	// Metodos get para la lista de Reptiles
 	public static int cantidadReptiles(){
 		return listado.size();

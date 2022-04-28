@@ -34,9 +34,31 @@ public class Ave extends Animal {
 	}
 
 	
+	
+	// Metodos
+	
+	// Moverse
+	public String movimiento() {
+		return "volar";
+	}
+	
+	// 
+	public static Ave crearHalcon(String nombre, int edad, String genero) {
+		Ave nuevoHalcon = new Ave(nombre,edad,"montanas",genero,"cafe glorioso");
+		halcones += 1;
+		return nuevoHalcon;
+	}
+	
+	public static Ave crearAguila(String nombre, int edad, String genero) {
+		Ave nuevoAguila = new Ave(nombre,edad,"montanas",genero,"blanco");
+		aguilas += 1;
+		return nuevoAguila;
+	}
+	
 	// Metodos get para la lista de Aves
 	public static int cantidadAves(){
 		return listado.size();
 	}
+	
 	
 }

@@ -22,7 +22,7 @@ public class Anfibio extends Animal {
 		this.colorPiel = colorPiel;
 		this.venenoso = venenoso;
 		
-		// Para añadirlo al listado general
+		// Para anadirlo al listado general
 		Anfibio.listado.add(this);
 	}
 	

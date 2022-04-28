@@ -20,7 +20,7 @@ public class Animal {
 	public Animal (String nombre, int edad, String habitat, String genero) {
 		this.nombre = nombre;
 		this.edad = edad;
-		this.habitat = habitad;
+		this.habitat = habitat;
 		this.genero = genero;
 		
 		// Se aumenta en uno cuando se crea un animal

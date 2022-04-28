@@ -22,7 +22,7 @@ public class Pez extends Animal {
 		this.colorEscamas = colorEscamas;
 		this.cantidadAletas = cantidadAletas;
 		
-		// Para anadir el Pez a la colección
+		// Para anadir el Pez a la coleccion
 		Pez.listado.add(this);
 		
 	}

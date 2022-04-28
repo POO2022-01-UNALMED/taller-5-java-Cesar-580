@@ -24,7 +24,7 @@ public class Mamifero extends Animal{
 		this.pelaje = pelaje;
 		this.patas = patas;
 		
-		// Cuando se crea el Mamifero se espera que se añada al listado
+		// Cuando se crea el Mamifero se espera que se anada al listado
 		Mamifero.listado.add(this);
 	}
 	

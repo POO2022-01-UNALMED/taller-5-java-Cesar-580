@@ -21,7 +21,7 @@ public class Ave extends Animal {
 		// Atributos nuevos en la clase Mamifero
 		this.colorPlumas = colorPlumas;
 		
-		// Cuando se crea el Mamifero se espera que se añada al listado
+		// Cuando se crea el Mamifero se espera que se anada al listado
 		Ave.listado.add(this);
 	}
 

@@ -14,7 +14,7 @@ public class Animal {
 	
 	//Construnctor vacio para que las herencias puedan trabajar sobre el
 	public Animal() {
-		
+		this("", 0, "", "");
 	}
 	
 	public Animal (String nombre, int edad, String habitat, String genero) {

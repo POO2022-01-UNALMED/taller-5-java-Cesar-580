@@ -9,7 +9,7 @@ public class Animal {
 	private int edad;
 	private String habitat;
 	private String genero;
-	private ArrayList<Zona> zona = new ArrayList<Zona>();
+	private Zona zona;
 	
 	
 	//Construnctor vacio para que las herencias puedan trabajar sobre el

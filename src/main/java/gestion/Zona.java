@@ -23,8 +23,8 @@ public class Zona {
 	
 	// Metodos get y set para ubicacion
 	public Zoologico getZoo() {
-		return this.zoo;
-	}
+        return zoo;
+    }
 	
 	public void setZoo(Zoologico zoo) {
 		this.zoo = zoo;

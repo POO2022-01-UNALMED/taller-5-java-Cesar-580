@@ -32,13 +32,8 @@ public class Ave extends Animal {
 	public void setColorPlumas(String colorPlumasNuevo) {
 		this.colorPlumas = colorPlumasNuevo;
 	}
-
-	
 	
 	// Metodos
-	
-	// Moverse
-	
 	
 	// 
 	public static Ave crearHalcon(String nombre, int edad, String genero) {
@@ -61,5 +56,6 @@ public class Ave extends Animal {
 	public String movimiento() {
         return "volar";
     }
+	
 	
 }

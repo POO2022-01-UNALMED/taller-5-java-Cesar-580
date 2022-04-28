@@ -48,9 +48,7 @@ public class Anfibio extends Animal {
 	
 	
 	// M
-	
 
-	
 	public static Anfibio crearRana(String nombre, int edad, String genero) {
 		Anfibio nuevoRana = new Anfibio(nombre,edad,"selva",genero,"rojo",true);
 		ranas += 1;

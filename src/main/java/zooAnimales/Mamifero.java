@@ -52,10 +52,7 @@ public class Mamifero extends Animal{
 	
 	// Metodos - Creados
 	
-	// Moverse
-	public String movimiento() {
-		return "desplazarse";
-	}
+	
 	
 	// Metodos get para la lista de Mamiferos
 	public static int cantidadMamiferos(){
@@ -73,5 +70,9 @@ public class Mamifero extends Animal{
 		leones += 1;
 		return nuevoLeon;
 	}
-		
+	
+	// Moverse
+	public String movimiento() {
+		return "desplazarse";
+	}
 }

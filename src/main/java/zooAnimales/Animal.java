@@ -63,5 +63,7 @@ public class Animal {
 		}
 	}
 	
-	
+	public String movimiento(){
+        return "desplazarse";
+    }
 }

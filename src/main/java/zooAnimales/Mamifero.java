@@ -72,7 +72,7 @@ public class Mamifero extends Animal{
 	}
 	
 	// Moverse
-	public String movimiento() {
-		return "desplazarse";
-	}
+	//public String movimiento() {
+	//	return "desplazarse";
+	//}
 }

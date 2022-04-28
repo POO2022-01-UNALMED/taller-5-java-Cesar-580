@@ -12,15 +12,11 @@ public class Ave extends Animal {
 		super();
 		Ave.listado.add(this);
 	}
-	
 	public Ave(String nombre, int edad, String habitat, String genero, String colorPlumas) {
-		
 		// Atributos que son heredados
 		super(nombre,edad,habitat,genero);
-		
 		// Atributos nuevos en la clase Mamifero
 		this.colorPlumas = colorPlumas;
-		
 		// Cuando se crea el Mamifero se espera que se anada al listado
 		Ave.listado.add(this);
 	}

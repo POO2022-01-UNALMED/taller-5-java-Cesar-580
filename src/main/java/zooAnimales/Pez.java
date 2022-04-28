@@ -9,7 +9,6 @@ public class Pez extends Animal {
 	private int cantidadAletas;
 	
 	public Pez () {
-		super();
 		listado.add(this);
 	}
 	

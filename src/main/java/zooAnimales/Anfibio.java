@@ -9,7 +9,6 @@ public class Anfibio extends Animal {
 	private boolean venenoso;
 	
 	public Anfibio() {
-		super();
 		listado.add(this);
 	}
 	

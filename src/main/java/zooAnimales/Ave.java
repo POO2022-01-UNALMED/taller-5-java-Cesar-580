@@ -13,7 +13,7 @@ public class Ave extends Animal {
 		Ave.listado.add(this);
 	}
 	
-	public Ave(String nombre, int edad, String habitat, String genero, int halcones, int aguilas, String colorPlumas) {
+	public Ave(String nombre, int edad, String habitat, String genero, String colorPlumas) {
 		
 		// Atributos que son heredados
 		super(nombre,edad,habitat,genero);

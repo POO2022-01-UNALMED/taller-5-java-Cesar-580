@@ -1,4 +1,4 @@
-package test;
+package zooAnimales;
 import java.util.ArrayList;
 
 public class Reptil extends Animal {
@@ -43,7 +43,7 @@ public class Reptil extends Animal {
 	
 	
 	// Método get para la lista de Reptiles
-	public static ArrayList<Reptil> cantidadReptiles(){
+	public static int cantidadReptiles(){
 		return this.listado.size();
 	}
 	

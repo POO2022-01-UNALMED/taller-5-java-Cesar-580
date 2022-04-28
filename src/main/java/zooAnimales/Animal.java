@@ -1,4 +1,5 @@
-package test;
+package zooAnimales;
+import gestion.Zona;
 import java.util.ArrayList;
 
 
@@ -47,8 +48,11 @@ public class Animal {
 	}
 	
 	public String totalPorTipo() {
-		return "Mamiferos: "+
-				+
+		return "Mamiferos: "+ Mamifero.cantidadMamiferos() +
+				"\nAves: " + Ave.cantidadAves() + 
+				"\nReptiles: " + Reptil.cantidadReptiles() +
+				"\nPeces: " + Pez.cantidadPeces() +
+				"\nAnfibios: " Anfibio.cantidadAnfibios();
 	}
 	
 }

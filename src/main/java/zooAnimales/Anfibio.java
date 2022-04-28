@@ -1,4 +1,4 @@
-package test;
+package zooAnimales;
 import java.util.ArrayList;
 
 public class Anfibio extends Animal {
@@ -43,7 +43,7 @@ public class Anfibio extends Animal {
 	
 	
 	// Método get para la lista de Anfibio
-	public static ArrayList<Anfibio> cantidadAnfibios(){
+	public static int cantidadAnfibios(){
 		return this.listado.size();
 	}
 }

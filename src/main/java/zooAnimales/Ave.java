@@ -1,5 +1,6 @@
- package test;
+package zooAnimales;
 import java.util.ArrayList;
+
 
 public class Ave extends Animal {
 	private static ArrayList<Ave> listado = new ArrayList<Ave>();
@@ -34,7 +35,7 @@ public class Ave extends Animal {
 
 	
 	// Método get para la lista de Aves
-	public static ArrayList<Ave> cantidadAves(){
+	public static int cantidadAves(){
 		return this.listado.size();
 	}
 	

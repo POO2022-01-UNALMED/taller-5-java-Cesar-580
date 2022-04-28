@@ -1,5 +1,6 @@
-package test;
+package zooAnimales;
 import java.util.ArrayList;
+
 
 public class Mamifero extends Animal{
 	private static ArrayList<Mamifero> listado = new ArrayList<Mamifero>();
@@ -43,7 +44,7 @@ public class Mamifero extends Animal{
 	}
 	
 	// Método get para la lista de Mamiferos
-	public static ArrayList<Mamifero> cantidadMamiferos(){
+	public static int cantidadMamiferos(){
 		return this.listado.size();
 	}
 	
